@@ -25,7 +25,7 @@ buildscript {
 group = "us.aldwin.ambient.consumer"
 // after updating this, make sure to push a new git tag
 // (would be nice to eventually automate)
-version = "0.1.0-alpha.1"
+version = "0.1.0-alpha.2"
 
 val ghUser = "NJAldwin"
 val ghRepo = "ambient-consumer"
