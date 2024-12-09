@@ -1,0 +1,7 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+
+module:ambient-consumer-realtime
+us.aldwin.ambient.consumer.realtime
+us.aldwin.ambient.json
+us.aldwin.ambient.models
