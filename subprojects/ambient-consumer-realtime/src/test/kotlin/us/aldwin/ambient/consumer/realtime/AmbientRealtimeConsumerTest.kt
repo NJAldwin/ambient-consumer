@@ -5,6 +5,8 @@ import org.junit.jupiter.api.Test
 class AmbientRealtimeConsumerTest {
     @Test
     fun `it instantiates`() {
-        AmbientRealtimeConsumer()
+        AmbientRealtimeConsumer(
+            AmbientCredentials(applicationKey = "appKey", apiKeys = setOf("apiKey1", "apiKey2")),
+        )
     }
 }
