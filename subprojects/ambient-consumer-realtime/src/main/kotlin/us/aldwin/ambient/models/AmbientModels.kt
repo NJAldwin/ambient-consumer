@@ -88,6 +88,11 @@ public data class AmbientRealtimeSubscribe(
      */
     @get:JsonProperty(required = true) @field:JsonProperty(required = true)
     val devices: List<AmbientRealtimeDevice>,
+    /**
+     * TODO: doc
+     */
+    @get:JsonProperty(required = false) @field:JsonProperty(required = false)
+    val invalidApiKeys: List<String> = emptyList(),
 ) {
     /**
      * TODO: doc
