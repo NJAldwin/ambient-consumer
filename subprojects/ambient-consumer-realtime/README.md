@@ -1,11 +1,9 @@
-# ambient-consumer
+# ambient-consumer-realtime
 
-(Under development)
+(under development)
 
 [![Maven Central Version](https://img.shields.io/maven-central/v/us.aldwin.ambient.consumer/ambient-consumer-realtime)](https://central.sonatype.com/artifact/us.aldwin.ambient.consumer/ambient-consumer-realtime)
 [![javadoc](https://javadoc.io/badge2/us.aldwin.ambient.consumer/ambient-consumer-realtime/javadoc.svg)](https://javadoc.io/doc/us.aldwin.ambient.consumer/ambient-consumer-realtime)
-
-https://central.sonatype.com/artifact/us.aldwin.ambient.consumer/ambient-consumer
 
 https://central.sonatype.com/artifact/us.aldwin.ambient.consumer/ambient-consumer-realtime
 
