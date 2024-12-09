@@ -1,5 +1,6 @@
 package us.aldwin.ambient.json
 
+import com.fasterxml.jackson.core.JsonParser
 import com.fasterxml.jackson.core.util.DefaultIndenter
 import com.fasterxml.jackson.core.util.DefaultPrettyPrinter
 import com.fasterxml.jackson.databind.ObjectMapper
@@ -31,6 +32,8 @@ public object AmbientJson {
             disable(SerializationFeature.WRITE_DURATIONS_AS_TIMESTAMPS)
             registerModule(JavaTimeModule())
             registerKotlinModule()
+
+            enable(JsonParser.Feature.INCLUDE_SOURCE_IN_LOCATION)
         }
     }
 }
